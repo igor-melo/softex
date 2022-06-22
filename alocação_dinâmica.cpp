@@ -4,6 +4,7 @@ int main()
 {
   int *vetor, i; 
   
+  vetor = (int *) calloc(21, sizeof(int));
   vetor = (int *) realloc(vetor, 22 * sizeof(int));
   
   for (i = 0; i < 22; i++)
